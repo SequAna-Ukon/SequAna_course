@@ -17,7 +17,7 @@ Selected publications It would be a good idea to familiarize yourself with the p
 - [Fleck et al. (2024)](https://www.nature.com/articles/s42003-023-05748-4).
 ## Location
 The practical will take place in room M739 from 09.00-~18:00 on the 20th-26th of March. 
-
+An alternative ```conference``` network is available for those without access to ```eduroam``` network. Please check with the course organizers or refer to the provided internal document for login credentials.
 Abdoallah aka "Abdo", the current SequAna bioinformatician will be running the main practical and will be there to assist you. Moreover, some of the externally invited speakers will run virtually their mini-practice.
 
 ## Computing setup
