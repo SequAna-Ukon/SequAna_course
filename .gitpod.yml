@@ -16,6 +16,5 @@ tasks:
       # Install BUSCO in a new environment using Mamba
       mamba create -n ONT25 -y bioconda::busco
 
-      # Activate the ONT25 environment in the same terminal
-      echo "mamba activate ONT25" >> ~/.bashrc
-      source ~/.bashrc
+      # Activate the environment in the same terminal session
+      mamba activate ONT25
