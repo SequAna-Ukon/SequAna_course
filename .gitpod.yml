@@ -1,5 +1,5 @@
 tasks:
-  - name: 
+  - name: Installing
     init: |
       # Install Miniconda and Mamba
       wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
