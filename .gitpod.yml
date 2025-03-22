@@ -5,3 +5,5 @@ tasks:
       bash miniconda.sh -b -p $HOME/miniconda
       echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
       source ~/.bashrc
+      conda update -n base -c defaults conda -y
+      conda install -n base -c conda-forge mamba -y
