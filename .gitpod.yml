@@ -9,6 +9,8 @@ tasks:
       conda install -n base -c conda-forge mamba -y
       mamba shell init --shell bash --root-prefix=~/.local/share/mamba
       exec bash
+      eval "$(mamba shell hook --shell bash)"
+
     
   - name: Install BUSCO
     init: |
