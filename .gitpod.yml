@@ -9,9 +9,18 @@ tasks:
 
       # Initialize Mamba and update it
       conda update -n base -c defaults conda -y
-      conda install -n base -c conda-forge mamba -y 
-      conda install -n base -c bioconda busco -y
-      mamba shell init --shell bash --root-prefix=~/.local/share/mamba
-      eval "$(mamba shell hook --shell bash)"
+      conda install -n base -c conda-forge mamba -y
 
-  
+      # Initialize the shell for mamba in the same terminal session
+      mamba shell init --shell bash --root-prefix=~/.local/share/mamba
+      source ~/.bashrc
+
+      # Create a new environment with Python 3.8 for compatibility with BUSCO
+      mamba create -n ONT25 python=3.8 -y
+
+      # Activate the environment in the same terminal session
+      source ~/.bashrc
+      mamba activate ONT25
+
+      # Install BUSCO and dependencies using Mamba
+      mamba install -c bioconda busco -y
