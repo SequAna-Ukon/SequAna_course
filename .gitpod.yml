@@ -7,3 +7,4 @@ tasks:
       source ~/.bashrc
       conda update -n base -c defaults conda -y
       conda install -n base -c conda-forge mamba -y
+      
