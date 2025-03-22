@@ -1,12 +1,8 @@
 tasks:
   - name: Install Mamba
     init: |
-      curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
-      sudo mv bin/micromamba /usr/local/bin/micromamba
-      echo 'export MAMBA_ROOT_PREFIX=~/micromamba' >> ~/.bashrc
-      echo 'eval "$(micromamba shell hook --shell=bash)"' >> ~/.bashrc
+      curl -fsSL https://micro.mamba.pm/install.sh | bash
+      echo 'export PATH="$HOME/micromamba/bin:$PATH"' >> ~/.bashrc
       source ~/.bashrc
-      micromamba create -n ONT25 -y -c conda-forge mamba
-      micromamba activate ONT25
-      micromamba install -y bioconda::busco
+      
  
