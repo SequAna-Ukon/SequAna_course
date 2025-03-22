@@ -1,12 +1,27 @@
 tasks:
   - init: |
-      # Download and install Mambaforge (a distribution that includes Mamba)
+      # Ensure a clean start by removing old Mambaforge installations (optional)
+      rm -rf $HOME/mambaforge mambaforge.sh
+      # Download Mambaforge
       wget -q https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh -O mambaforge.sh
+      # Check if download succeeded
+      if [ ! -f mambaforge.sh ]; then
+        echo "Error: Mambaforge download failed!"
+        exit 1
+      fi
+      # Install Mambaforge quietly (-b for batch mode, -p for prefix)
       bash mambaforge.sh -b -p $HOME/mambaforge
+      # Verify installation
+      if [ ! -f $HOME/mambaforge/bin/mamba ]; then
+        echo "Error: Mambaforge installation failed!"
+        exit 1
+      fi
       # Initialize Mamba for the shell
       $HOME/mambaforge/bin/mamba init
-      # Optionally, create a default environment or install packages
+      # Create a default environment
       $HOME/mambaforge/bin/mamba create -n myenv python=3.9 -y
     command: |
-      # Activate the Mamba environment when the terminal opens
+      # Activate the environment
       source $HOME/mambaforge/bin/activate myenv
+      # Verify Mamba is available
+      mamba --version
