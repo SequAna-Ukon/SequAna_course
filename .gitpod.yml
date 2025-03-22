@@ -7,9 +7,10 @@ tasks:
       source ~/.bashrc
       conda update -n base -c defaults conda -y
       conda install -n base -c conda-forge mamba -y
-      mamba create -n ONT25 -y bioconda::busco
+      
       mamba shell init --shell bash --root-prefix=~/.local/share/mamba
       exec bash
+      mamba create -n ONT25 -y bioconda::busco
       mamba activate ONT25
 
 
