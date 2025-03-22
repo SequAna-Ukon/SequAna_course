@@ -16,11 +16,8 @@ tasks:
       source ~/.bashrc
 
       # Create a new environment with Python 3.8 for compatibility with BUSCO
-      mamba create -n ONT25 python=3.8 -y
+      mamba create -n ONT25 bioconda::busco -y
 
       # Activate the environment in the same terminal session
       source ~/.bashrc
       mamba activate ONT25
-
-      # Install BUSCO and dependencies using Mamba
-      mamba install -c bioconda busco -y
