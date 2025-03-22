@@ -7,4 +7,4 @@ tasks:
       source ~/.bashrc
       conda update -n base -c defaults conda -y
       conda install -n base -c conda-forge mamba -y
-      mamba install -y bioconda::busco
+      mamba create -n ONT25 -y bioconda::busco
