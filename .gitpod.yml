@@ -1,6 +1,7 @@
 tasks:
-  - name: Install Conda
+  - name: Install Conda & Mamba
     init: |
+      # Install Miniconda and Mamba
       wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
       bash miniconda.sh -b -p $HOME/miniconda
       echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
@@ -10,10 +11,7 @@ tasks:
       mamba shell init --shell bash --root-prefix=~/.local/share/mamba
       eval "$(mamba shell hook --shell bash)"
 
-    
   - name: Install BUSCO
     init: |
+      # Create the environment with BUSCO installed
       mamba create -n ONT25 -y bioconda::busco
-      mamba activate ONT25
-
-
