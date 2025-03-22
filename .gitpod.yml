@@ -1,1 +1,12 @@
-image: ./gitpod.dockerfile
+tasks:
+  - init: |
+      # Download and install Mambaforge (a distribution that includes Mamba)
+      wget -q https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh -O mambaforge.sh
+      bash mambaforge.sh -b -p $HOME/mambaforge
+      # Initialize Mamba for the shell
+      $HOME/mambaforge/bin/mamba init
+      # Optionally, create a default environment or install packages
+      $HOME/mambaforge/bin/mamba create -n myenv python=3.9 -y
+    command: |
+      # Activate the Mamba environment when the terminal opens
+      source $HOME/mambaforge/bin/activate myenv
