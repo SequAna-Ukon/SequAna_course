@@ -59,7 +59,7 @@ But don't worry, the SequAna bioinformatician will be there to help you when you
 
 Some packages take a long time to install so it's best to do this setup in advance. Then, we will install all requirements during the first two days while we introduce you to the bash and scripting basics. 
 
-Last but not least, The program of the course is on the [WIKI](https://github.com/SequAna-Ukon/SequAna_course/wiki) page, with links to material and Zoom link for the external speakers, Enjoy the training.
+Last but not least, The program of the course is [HERE](https://github.com/SequAna-Ukon/SequAna_course/blob/2025/docs/2026/index.md), with links to material and Zoom link for the external speakers, Enjoy the training.
 
 © 2026 Abdoallah Sharaf
 
