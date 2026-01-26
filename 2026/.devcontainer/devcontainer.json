@@ -1,0 +1,14 @@
+{
+  "name": "SequAna Course (ONT)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {
+      "version": "latest"
+    }
+  },
+
+  "postCreateCommand": "mamba create -n ONT24 -y bioconda::busco",
+
+  "postStartCommand": "echo 'conda activate ONT24' >> ~/.bashrc"
+}
