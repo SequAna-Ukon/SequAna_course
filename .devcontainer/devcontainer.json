@@ -8,7 +8,7 @@
     }
   },
 
-  "postCreateCommand": "conda install -n base -y mamba && mamba create -n ONT26 -y -c bioconda busco && echo 'conda activate ONT26' >> ~/.bashrc",
+  "postCreateCommand": "conda install -n base -y conda-forge::mamba && mamba create -n ONT26 -y -c conda-forge -c bioconda python busco && echo 'conda activate ONT26' >> ~/.bashrc",
 
   "postStartCommand": "conda activate ONT26"
 }
