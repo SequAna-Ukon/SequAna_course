@@ -1,6 +1,6 @@
 © 2026 Abdoallah Sharaf
 
-## Modularity 
+# Modularity 
 Modularity is an important keystone in molecular evolution and indispensable for evolutionary innovation. Protein domains as the modules of proteins can be reused in different molecular contexts and therefore rearrangements of domains can create a broad functional diversity with just a few mutational steps.
 
 ### **[DomRates-Seq](https://domainworld.uni-muenster.de/programs/domrates-seq/index.html)**  
@@ -50,7 +50,7 @@ Instead of presenting the domain rearrangement event of the whole phylogeny, We 
 
 > **Exercise:** Download and explore the new outputs ```statistics_tree.txt``` and ```statistics_itol.txt```, how we can visualize these.
 
-## **Phylogenomic tree**
+# **Phylogenomic tree**
 Sometimes, it is called a species tree that would usefully resolve any ambiguities within evolutionary relationships [Kapli et al. 2020](https://www.nature.com/articles/s41576-020-0233-0). There are two approaches to infer a species tree: 
 
 #### I. The super-tree approach 
