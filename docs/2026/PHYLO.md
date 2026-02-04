@@ -1,5 +1,55 @@
 © 2026 Abdoallah Sharaf
 
+## Modularity 
+Modularity is an important keystone in molecular evolution and indispensable for evolutionary innovation. Protein domains as the modules of proteins can be reused in different molecular contexts and therefore rearrangements of domains can create a broad functional diversity with just a few mutational steps.
+
+### **[DomRates-Seq](https://domainworld.uni-muenster.de/programs/domrates-seq/index.html)**  
+DomRates-Seq infers these rearrangement events of protein domains for a given phylogeny and calculates the rates of the related events.
+
+> **Note:** I will use the input files from the FastOMA exercise.
+
+- Filter isoforms and keep only one of the isoforms.
+
+````bash
+../Results/Comparative/software/dw-helper/build/isoformCleaner -i in_folder/proteome/Exaiptasia_diaphana.fa -o Exaiptasia_diaphana_clean.fa
+````
+
+- Domain annotation using [PfamScan](https://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/)
+
+> **Note:** You need to download Pfam 37.0 database.
+
+````bash
+mamba activate pfam
+pfam_scan.pl -fasta Exaiptasia_diaphana_clean.fa -cpu 1 -outfile Exaiptasia_diaphana.dom -dir ../Results/Comparative/software/pfam/
+````
+- Running domRates-Seq
+
+````bash
+../Results/Comparative/software/domratesseq/build/domRatesSeq -t ../Results/Comparative/OMA/in_folder/species_tree.nwk -r ../Results/Comparative/OMA/in_folder/proteome/ -f .fa -g unclassified_Aiptasia -a ../Results/Comparative/DomRates/domain_scan/ -m ../Results/Comparative/software/domratesseq/tests/data/BLOSUM62.txt -o rates.txt -d -s statistics.txt -p 1
+````
+
+> **Exercise:** Download and explore the output files ```rates.txt```, ```statistics.txt``` and ```statistics_epd.txt```.
+
+- Visualize the results
+- this code requires graphic suppot, then you need to log out from the server ```exit``` and log in with ```ssh -Y```
+
+````bash
+mamba activate pfam
+python ../Results/Comparative/software/domratesseq/src/visualization_domrates_tree.py -t ../Results/Comparative/OMA/in_folder/species_tree.nwk -s ../Results/Comparative/DomRates/statistics.txt -o DomRates.pdf
+````
+
+> **Exercise:** Download and explore the produced graph ```DomRates```.
+
+
+- Tracking domain rearrangement events
+
+Instead of presenting the domain rearrangement event of the whole phylogeny, We can explore the domain rearrangement events of the selected proteins.
+````bash
+../Results/Comparative/software/domratesseq/build/domRatesSeq -t ../Results/Comparative/OMA/in_folder/species_tree.nwk -r ../Results/Comparative/OMA/in_folder/proteome/ -f .fa -g unclassified_Aiptasia -a ../Results/Comparative/DomRates/domain_scan/ -m ../Results/Comparative/software/domratesseq/tests/data/BLOSUM62.txt -o rates.txt -d -s statistics.txt -p 1 -c 1 -i Aip_010716-T1,XP_020894300.1
+````
+
+> **Exercise:** Download and explore the new outputs ```statistics_tree.txt``` and ```statistics_itol.txt```, how we can visualize these.
+
 ## **Phylogenomic tree**
 Sometimes, it is called a species tree that would usefully resolve any ambiguities within evolutionary relationships [Kapli et al. 2020](https://www.nature.com/articles/s41576-020-0233-0). There are two approaches to infer a species tree: 
 
