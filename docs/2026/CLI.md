@@ -30,7 +30,7 @@ The vast majority of bioinformatic programs run on Linux, although many can also
 Mac OS X is Unix-based and therefore has many similarities to Linux distributions.
 The terminal app on Mac OS X offers the user a command line interface (CLI; terminal) very similar to that of Linux distributions.
 
-> **Exercise:** Play with the commands [HERE](https://github.com/SequAna-Ukon/VTK2023/wiki/Practice-on-basic-shell-scripting) to get familiar with bash scripting.
+> **Exercise:** Play with the commands [HERE](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/SHELL.md) to get familiar with bash scripting.
 Try to figure out the use of each bash command in the given example.
  
 
