@@ -16,7 +16,7 @@ Selected publications It would be a good idea to familiarize yourself with the p
 - [Fleck et al. (2024)](https://www.nature.com/articles/s42003-023-05748-4).
 
 ## Location
-The practical will take place in room M739 from 09.00-~18:00 on the 20th-26th of March. 
+The practical will take place in room M739.
 An alternative ```conference``` network is available for those without access to ```eduroam``` network. Please check with the course organizers or refer to the provided internal document for login credentials.
 Abdoallah aka "Abdo", the current SequAna bioinformatician will be running the main practical and will be there to assist you. Moreover, some of the externally invited speakers will run virtually their mini-practice.
 
@@ -59,30 +59,14 @@ But don't worry, the SequAna bioinformatician will be there to help you when you
 
 Some packages take a long time to install so it's best to do this setup in advance. Then, we will install all requirements during the first two days while we introduce you to the bash and scripting basics. 
 
-Last but not least, The program of the course is [HERE](https://github.com/SequAna-Ukon/SequAna_course/blob/2025/docs/2026/index.md), with links to material and Zoom link for the external speakers, Enjoy the training.
-
-© 2026 Abdoallah Sharaf
+Last but not least, The program of the course is [HERE](./docs/2026/index.md), with links to material and Zoom link for the external speakers, Enjoy the training.
 
 
-
-## 📚 Available Versions
-
-### **2026**
-→ See **/2026** for the full materials and PDFs for the 2026 course.
-
-🔗 Quick links:
-- [2026 README & practical setup](./2026/README.md)
-- [2026 documentation](./docs/2026/index.md)
-
-### **2025**
 → See **/2025** for the materials from the 2025 edition.
 
 🔗 Quick links:
 - [2025 README & practical setup](./2025/README.md)
 - [2025 documentation](./docs/2025/index.md)
 
-## 📖 How to use
 
-- Each version folder (`/2025`, `/2026`) is frozen once tagged.
-- Detailed structured docs live in the `docs/` folder so that they get packaged with the release.
-
+© 2026 Abdoallah Sharaf
