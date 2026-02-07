@@ -59,10 +59,10 @@ But don't worry, the SequAna bioinformatician will be there to help you when you
 
 Some packages take a long time to install so it's best to do this setup in advance. Then, we will install all requirements during the first two days while we introduce you to the bash and scripting basics. 
 
-Last but not least, The program of the course is [HERE](./docs/2026/index.md), with links to material and Zoom link for the external speakers, Enjoy the training.
+Last but not least, The program of the course is [HERE](./2026/README.md), with links to material and Zoom link for the external speakers, Enjoy the training.
 
 
-→ See **/2025** for the materials from the 2025 edition.
+→ See the materials from the last year **2025** edition.
 
 🔗 Quick links:
 - [2025 README & practical setup](./2025/README.md)
