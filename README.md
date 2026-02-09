@@ -3,7 +3,7 @@
 This markdown document will cover all aspects of the practical related to SequAna's intensive genomic course.
 
 # Introduction
-In this practical, we will process an Oxford nanopore sequencing (ONT) dataset of a symbionts-free strain of Aiptasia sp. [Exaiptasia diaphna] strain F003  that was generated earlier in SequAna's Lab. 
+In this practical, we will process an Oxford nanopore sequencing (ONT) dataset of a symbionts-free strain of Aiptasia sp. [Exaiptasia diaphana] strain F003  that was generated earlier in SequAna's Lab. 
 Aiptasia is a globally distributed genus of sea anemones in the Class Anthozoa. Similar to its relatives, stony corals, Aiptasia forms symbiotic relationships with microalgae of the family Symbiodiniaceae. As such, it is a popular model organism for studying the molecular and cellular basis of the cnidarian-algal symbiosis and several recent investigations into animal-microbiome studies.
 It has several features that make it an ideal model organism for studies on marine symbioses: they are easily cultured in laboratories where they can reproduce both sexually and asexually. Asexual cloning, in particular, is a valuable ability as it allows large clonal populations to be obtained with relative ease. Additionally, they can also be cultured and maintained indefinitely in a symbiont-free state and can be re-infected by a variety of Symbiodiniaceae strains. The available/reference  genome for this species was sequenced using short-read technology and belongs to a different strain Aiptasia strain CC [(Baumgarten et al. 2015)](https://www.pnas.org/doi/full/10.1073/pnas.1513318112).
 
