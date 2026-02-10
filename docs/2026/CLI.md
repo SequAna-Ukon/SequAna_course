@@ -30,9 +30,6 @@ The vast majority of bioinformatic programs run on Linux, although many can also
 Mac OS X is Unix-based and therefore has many similarities to Linux distributions.
 The terminal app on Mac OS X offers the user a command line interface (CLI; terminal) very similar to that of Linux distributions.
 
-> **Exercise:** Play with the commands [HERE](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/SHELL.md) to get familiar with bash scripting.
-Try to figure out the use of each bash command in the given example.
- 
 
 ## Some key sequence data formats - fasta, fastq, fastq.gz, sam and bam
 
@@ -95,7 +92,6 @@ See [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-env
 
 Recently, another faster package manager has been developed named [mamba](https://mamba.readthedocs.io/en/latest/index.html). mamba, can be installed through [conda](https://anaconda.org/conda-forge/mamba) as well.   
 
-> **Exercise:** Install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions) in your home directory. If you're not sure which options to select, ask! Once it's installed you'll need to start a new ssh session.
 
 > **Exercise:** Try to use both mamba and conda, to determine their performance deferences.
 
@@ -107,3 +103,6 @@ Great! We now can create environments and install programs locally using the 'co
 > Verify that you can run fastqc
 
 We will use this environment later on. As one of the first tasks we will need to undertake for our analysis is testing the quality of our generated sequencing data.
+
+> **Exercise:** Play with the commands [HERE](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/SHELL.md) to get familiar with bash scripting.
+Try to figure out the use of each bash command in the given example.
