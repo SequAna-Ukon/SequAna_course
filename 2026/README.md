@@ -18,16 +18,16 @@
 ||12:30 - 13:15|lunch|||
 ||13:15 - 13:45|Working with Docker images|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/DOCKER.md)|
 ||13:45 - 14:00|Break|||
-||14:00 - 14:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
+||14:00 - 14:45|Workflow management with Nextflow|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[lecture](https://docs.google.com/presentation/d/14lBU5MpKVSj61SuoZXful7AuKUe-P78NsyOPv3k1GWg/edit?usp=sharing)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF.md)|
 ||14:45 - 15:00|Break|||
-||15:00 - 15:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
+||15:00 - 15:45|Introduction to nf-core|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[lecture](https://docs.google.com/presentation/d/1WJ3rZqqS3oq9QSo8K71axGxv9hgonAh4a2F6G5m5R4k/edit?usp=sharing)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF_CORE.md)|
 ||15:45 - 16:00|Break|||
-||16:00 - 16:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
-|**DAY III**: Monday 23.03.2026|10:00 - 10:45|Workflow management with Nextflow|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[lecture](https://docs.google.com/presentation/d/14lBU5MpKVSj61SuoZXful7AuKUe-P78NsyOPv3k1GWg/edit?usp=sharing)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF.md)|
+||16:00 - 16:45|Sequencing reads pre-processing and quality control|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/QC.md)|
+|**DAY III**: Monday 23.03.2026|10:00 - 10:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
 ||10:45 - 11:00|Break|||
-||11:00 - 11:45|Introduction to nf-core|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[lecture](https://docs.google.com/presentation/d/1WJ3rZqqS3oq9QSo8K71axGxv9hgonAh4a2F6G5m5R4k/edit?usp=sharing)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF_CORE.md)|
+||11:00 - 11:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
 ||11:45 - 12:30|lunch|||
-||12:30 - 13:15|Sequencing reads pre-processing and quality control|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/QC.md)|
+||12:30 - 13:15|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
 ||13:15 - 13:30|Break|||
 ||13:30 - 14:15|Genome k-mer profiling |Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/KMER.md)|
 ||14:15 - 15:30|Break|||
