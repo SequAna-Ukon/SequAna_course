@@ -10,8 +10,6 @@
 ||11:00 - 11:45|Nanopore Sequencing technologies.|Dr. Ibrahim Cemel|Field Applications Scientist, Oxford Nanopore|lecture/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||11:45 - 12:45|lunch|||
 ||12:45 - 15:00|Practice on library prep strategies and sequencing|Mr. Konstantin Seeger|PhD Candidate, University of Konstanz|
-||15:00 - 15:15|Break|||
-||15:15 - 16:45|ENA Standards and Submission|Ms. Maira ihsan|User Support Bioinformatician, EMBL-EBI. UK|[lecture](https://docs.google.com/presentation/d/1_4c5qNQS77LAfBwPy2CSNNsX6hDh7K7H/edit)/[mini-practice](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/ENA.md)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 |**DAY II**: Friday 20.03.2026|9:45 - 11:15|Querying genome metadata and sequencing projects using GoaT|Dr. Cibele Sotero-Caio|Genomic Data Curator - Tree of Life Genomics, Welcome Sanger Institute, UK|[lecture](https://tinyurl.com/goat-sequana25)/[mini-practice](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/GOAT.md)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||11:15 - 11:30|Break|||
 ||11:30 - 12:30|Working on the command line interface (CLI) and using package managers to install programs|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/CLI.md)|
