@@ -47,7 +47,7 @@ mamba activate qc_env
 Running time: 25m47,291s 
 
 ````bash
-NanoPlot --fastq [raw_reads].fastq.gz --maxlength 40000 --plots dot --legacy hex -o nanoplot
+NanoPlot --fastq [raw_reads].fastq.gz -o nanoplot
 ````
 > **Exercise:** Check out some of the .png plots and the contents of ```NanoStats.txt```. Also, download ```NanoPlot-report.html``` for both files to your local computer and answer the following questions:
 
