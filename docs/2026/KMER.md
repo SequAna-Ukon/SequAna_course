@@ -12,7 +12,7 @@
 ````bash
 mamba activate kmer_env
 mkdir Aip_ONT_GS
-FastK -v -t10 -k21 -M16 -T4 Aip_sub_400K.fastq.gz -NAip_ONT_GS/kmcdb
+FastK -v -t10 -k21 -M16 -T4 Aip_clean.fq.gz -NAip_ONT_GS/kmcdb
 Histex -G Aip_ONT_GS/kmcdb > Aip_ONT_GS/kmer_k21.hist
 ````
 - The next step is to  run the modeling with the R script ```genomescope.R```
