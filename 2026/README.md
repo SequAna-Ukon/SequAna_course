@@ -21,11 +21,11 @@
 ||15:00 - 15:45|Introduction to nf-core|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[lecture](https://docs.google.com/presentation/d/1omfEpFJ8NeV2_p7koyoRpJbp3Zy_PBhDF9Kih3r5j74/edit?slide=id.g3ba0745e76f_0_0#slide=id.g3ba0745e76f_0_0)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF_CORE.md)|
 ||15:45 - 16:00|Break|||
 ||16:00 - 16:45|Sequencing reads pre-processing and quality control|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/QC.md)|
-|**DAY III**: Monday 23.03.2026|10:00 - 10:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
+|**DAY III**: Monday 23.03.2026|10:00 - 10:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|lecture|
 ||10:45 - 11:00|Break|||
-||11:00 - 11:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
+||11:00 - 11:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|lecture|
 ||11:45 - 12:30|lunch|||
-||12:30 - 13:15|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
+||12:30 - 13:15|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|lecture|
 ||13:15 - 13:30|Break|||
 ||13:30 - 14:15|Genome k-mer profiling |Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/KMER.md)|
 ||14:15 - 15:30|Break|||
