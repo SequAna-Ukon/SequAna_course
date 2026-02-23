@@ -18,17 +18,17 @@ mamba activate assem_env
 Running time: 156m9,730s
 
 ````bash
-flye --nano-hq  Aip_clean.fq.gz --genome-size 275m --out-dir aip_flye_hq --scaffold
+flye --nano-hq  Aip_clean.fastq.gz --genome-size 275m --out-dir aip_flye_hq --scaffold
 ````
 Running time: 185m47,878s
 ````bash
-flye --nano-corr  Aip_clean.fq.gz --genome-size 275m --out-dir aip_flye_corr --scaffold
+flye --nano-corr  Aip_clean.fastq.gz --genome-size 275m --out-dir aip_flye_corr --scaffold
 ````
 
 Running time: 184m37,942s
 
 ````bash
-flye --nano-raw  Aip_clean.fq.gz --genome-size 275m --out-dir aip_flye_raw --scaffold
+flye --nano-raw  Aip_clean.fastq.gz --genome-size 275m --out-dir aip_flye_raw --scaffold
 ````
 
 
