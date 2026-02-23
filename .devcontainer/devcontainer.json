@@ -1,6 +1,7 @@
 {
   "name": "SequAna Course (ONT)",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  // Pin to jammy (22.04) to resolve the Docker-in-Docker compatibility issue
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
 
   "features": {
     "ghcr.io/devcontainers/features/conda:1": {
