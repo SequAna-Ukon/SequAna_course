@@ -25,7 +25,7 @@ params.character = 'turkey'
 
 // Generate ASCII art with cowpy
 process cowpy {
-    container 'community.wave.seqera.io/library/cowpy:1.1.5--3db457ae1977a273'
+    container 'pditommaso/wave-tests:cowpy-1.1.5--4c2f3aa3880fb222'
     publishDir 'results', mode: 'copy
     input:
         val character
