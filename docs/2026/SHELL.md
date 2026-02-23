@@ -9,7 +9,7 @@ mkdir sequana
 ````
 - Navigate
 ````bash
-cd VTK
+cd sequana
 pwd
 cd ../
 cd CL_data
@@ -78,11 +78,11 @@ ls
 mkdir test_data
 cd test_data
 pwd
-cp /workspace/VTK_CF/CL_data/sp_list.txt ./
+cp /workspaces/SequAna_course/CL_data/sp_list.txt ./
 
 for i in `cat sp_list.txt`; 
 do 
-    cp /workspace/VTK_CF/CL_data/$i.fasta ./
+    cp /workspaces/SequAna_course/CL_data/$i.fasta ./
     echo 'file is transferred';
 done
 rm Physcomitrium_patens.fasta
