@@ -18,7 +18,7 @@
 ||13:45 - 14:00|Break|||
 ||14:00 - 14:45|Workflow management with Nextflow|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[lecture](https://docs.google.com/presentation/d/1omfEpFJ8NeV2_p7koyoRpJbp3Zy_PBhDF9Kih3r5j74/edit?slide=id.g32cceef1f40_0_773#slide=id.g32cceef1f40_0_773)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF.md)|
 ||14:45 - 15:00|Break|||
-||15:00 - 15:45|Introduction to nf-core|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[lecture](https://docs.google.com/presentation/d/1omfEpFJ8NeV2_p7koyoRpJbp3Zy_PBhDF9Kih3r5j74/edit?slide=id.g32cceef1f40_0_773#slide=id.g32cceef1f40_0_773)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF_CORE.md)|
+||15:00 - 15:45|Introduction to nf-core|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[lecture](https://docs.google.com/presentation/d/1omfEpFJ8NeV2_p7koyoRpJbp3Zy_PBhDF9Kih3r5j74/edit?slide=id.g3ba0745e76f_0_0#slide=id.g3ba0745e76f_0_0)/[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/NF_CORE.md)|
 ||15:45 - 16:00|Break|||
 ||16:00 - 16:45|Sequencing reads pre-processing and quality control|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/QC.md)|
 |**DAY III**: Monday 23.03.2026|10:00 - 10:45|Principles of genome assembly|Prof. Jean-François Flot|Group Leader, Université libre de Bruxelles (ULB), Brussels, Belgium|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/2025-03-21_Assembly_SeqAna.pdf)|
