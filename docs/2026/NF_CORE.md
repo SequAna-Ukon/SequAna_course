@@ -57,7 +57,7 @@ kraken2,db2,--quick,/workspace/gitpod/hello-nextflow/k2_viral_20241228.tar.gz
 nextflow run nf-core/taxprofiler -r 1.2.2  -profile docker --input raw_reads/samplesheet/samplesheet.csv --databases ./databases.csv --outdir Aip_taxpro --run_kraken2  --run_krona --perform_longread_qc --perform_longread_hostremoval False --save_analysis_ready_fastqs
 ````
 
-- This command will produce massive intermediate files, so running on a Gitpode instance may not be possible. So I already set and tested it and placed the results ````/home/bio16840/Results/Aip_taxpro/```` on SequAna's server, i used kraken2 ```core_nt Database``` for this run.
+- This command will produce massive intermediate files, so running on a GitHub Codespaces instance may not be possible. So I already set and tested it and placed the results ````/home/bio16840/Results/Aip_taxpro/```` on SequAna's server, i used kraken2 ```core_nt Database``` for this run.
 
 
 > **Exercise**: While we wait let's try to generate the DAG graph for ````nf-core/fetchngs```` and ````nf-core/taxprofiler```` pipelines.
