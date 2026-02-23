@@ -24,6 +24,21 @@ export NXF_VER=24.10.4
 nextflow run nf-core/fetchngs -r 1.12.0 -profile docker --input input.csv --nf_core_pipeline taxprofiler --outdir raw_reads
 ````
 
+<details>
+<summary>Hint </summary>
+
+````
+process {
+  withName: 'SRA_FASTQ_FTP' {
+    memory = '6 GB'
+    cpus = 2
+  }
+}
+
+````
+</details>
+
+
 - Now, let's run the nf-core [taxprofiler pipeline](https://nf-co.re/taxprofiler/1.2.2/), but before we need to download a database that important to taxnomy classy the reads. For simplicity, we will download the smallest database, the Viral collection of [Kraken2 databases](https://benlangmead.github.io/aws-indexes/k2).
 
 ````bash
