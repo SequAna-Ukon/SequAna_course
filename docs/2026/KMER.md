@@ -26,7 +26,7 @@ Histex -G Aip_ONT_GS/kmcdb > Aip_ONT_GS/kmer_k21.hist
 
 ````bash
 mkdir Aip_ONT_smudge
-FastK -v -t4 -k21 -M16 -T4 Aip_sub_400K.fastq.gz -NAip_ONT_smudge/FastK_Table (or you can use the kmcdb from previous analysis) 
+FastK -v -t4 -k21 -M16 -T4 Aip_clean.fq.gz -NAip_ONT_smudge/FastK_Table (or you can use the kmcdb from previous analysis) 
 smudgeplot.py hetmers -L 100 -t 4 -o Aip_ONT_smudge/kmerpairs --verbose Aip_ONT_smudge/FastK_Table
 smudgeplot.py all -cov_min 100 -cov_max 200 -o Aip_ONT_smudge/Aip -t "Exaiptasia diaphana" Aip_ONT_smudge/kmerpairs_text.smu
 ````
