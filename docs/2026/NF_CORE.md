@@ -29,10 +29,10 @@ nextflow run nf-core/fetchngs -r 1.12.0 -profile docker --input input.csv --nf_c
 
 ````
 process {
-  withName: 'SRA_FASTQ_FTP' {
-    memory = '6 GB'
-    cpus = 2
-  }
+    resourceLimits = [
+        memory: 7.GB,
+        cpus: 2,
+    ]
 }
 
 ````
