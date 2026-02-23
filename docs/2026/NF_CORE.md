@@ -15,12 +15,14 @@ Let's start from the very beginning using nf-core. We can use a pipeline line ca
 
 > **Exercise** Try to download our sequencing raw reads for Aiptasia, which should now be available in the NCBI Sequence Read Archive (SRA) under the accession ```SRR32136522``` using the fetching pipeline. Feel free to download any raw reads that you may interested in.
 - if somehow it doesn't work or takes a longer time then we going to use this one ````SRX27526683```` for the Gram-positive bacteria *Bordetella pertussis*.
-
 ````bash
-nextflow run nf-core/fetchngs  -profile conda --input input.csv --nf_core_pipeline taxprofiler --outdir raw_reads
+export NXF_VER=24.10.4
 ````
-
-- Did you notice that we can use the conda package management system by using the flag ````-profile conda````, another advantage of using Nextflow. 
+- The latest Nextflow version causes issues with this pipeline, so I called an older version.
+   
+````bash
+nextflow run nf-core/fetchngs -r 1.12.0 -profile docker --input input.csv --nf_core_pipeline taxprofiler --outdir raw_reads
+````
 
 - Now, let's run the nf-core [taxprofiler pipeline](https://nf-co.re/taxprofiler/1.2.2/), but before we need to download a database that important to taxnomy classy the reads. For simplicity, we will download the smallest database, the Viral collection of [Kraken2 databases](https://benlangmead.github.io/aws-indexes/k2).
 
