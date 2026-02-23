@@ -23,7 +23,7 @@ docker images
     ````bash
     docker run staphb/fastqc fastqc -h
     ````
-   - Also, images can be run interax=crtively
+   - Also, images can be run interacrtively
    ```bash
     docker run -it staphb/fastqc
    ````
