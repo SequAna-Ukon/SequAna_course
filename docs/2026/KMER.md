@@ -7,7 +7,7 @@
 - The developer of [Smudgeplot](https://github.com/KamilSJaron/smudgeplot), [Kamil S. Jaron](https://kamilsjaron.github.io/) supports us with a [full tuterial](https://docs.google.com/presentation/d/1cZXcdeurt3YGVvNdSTlFaIBhFRHWXFbaQHcu7y64zJY/edit#slide=id.g25ff9944340_0_633) about Smudgeplot but I share here i used profile Kmer using [genomescope2.0](https://github.com/tbenavi1/genomescope2.0).
 
 
--  First, we need to compute the histogram of k-mer frequencies. For this, we will use [FastK](https://github.com/thegenemyers/FASTK),  but you can use[KMC](http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=download), or [jellyfish](http://www.genome.umd.edu/jellyfish.html).
+-  First, we need to compute the histogram of k-mer frequencies. For this, we will use [FastK](https://github.com/thegenemyers/FASTK), but you can use [KMC](http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=download), or [jellyfish](http://www.genome.umd.edu/jellyfish.html).
 
 ````bash
 mamba activate kmer_env
