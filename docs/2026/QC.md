@@ -71,7 +71,7 @@ error probability (p) =10^(−Q/10) ×100%
 
 (execution time: 156m30,495s)
 ````bash
-porechop -i [raw_reads].fastq.gz -o [clean_reads].fq --discard_middle
+porechop -i [raw_reads].fastq.gz -o [clean_reads].fastq --discard_middle
 
 gzip [clean_reads].fq
 ````
