@@ -155,4 +155,5 @@ gfastats [assembly].fasta
 > **Exercise:** Export the visualized picture of the assembly.
 
 ## busco 
-- You can run BUSCO on a genome sequence but I prefer to do it based on the predicted protein sequences and the BTK tool will implement this information. However, you will  learn about these tools on the last day with Rob
+
+- You can run BUSCO on a genome sequence but I prefer to do it based on the predicted protein sequences and the BTK tool will implement this information. However, you will  learn about these tools with Marco.
