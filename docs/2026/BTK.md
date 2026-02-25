@@ -3,7 +3,7 @@
 ## Visualizing genome assembly cobionts by running BlobToolKit locally
 
 - BlobToolKit (BTK) is an amazing tool to assess assembly quality and visualize to check potential cobionts, a full handout for how to run it can be found [HERE](https://github.com/blobtoolkit/tutorials/tree/main/futurelearn). Also, a full online course for BTK is available as well for future reference [HERE](https://www.futurelearn.com/courses/eukaryotic-genome-assembly-how-to-use-blobtoolkit-for-quality-assessment). 
-For the second round, i used the new [nextflow pipeline](https://pipelines.tol.sanger.ac.uk/blobtoolkit/0.2.0) for BTK.
+For the second round, i used the new [nextflow pipeline](https://pipelines.tol.sanger.ac.uk/blobtoolkit) for BTK.
 
 - But i will try the very recent Nextflow version of the tool, for this we need to prepare the following first
 
