@@ -63,7 +63,7 @@ gtf_genome_to_cdna_fasta.pl Aip_RNASeqAll.Stringtie.gtf Aip_final.fasta > Aip_RN
 ### tRNA prediction
 
 ````bash
-tRNAscan-SE -E -I -H --detail --thread 50 -o trnascan-se.out -f trnascan-se.tbl -m trnascan-se.log  RE_mask/AiptasiaF003_V1.fasta.masked
+tRNAscan-SE -E -I -H --detail --thread 50 -o trnascan-se.out -f trnascan-se.tbl -m trnascan-se.log  ../Results/Repeats/RE_mask/Aip_final.fasta.masked
 
 EukHighConfidenceFilter -i trnascan-se.out -s trnascan-se.tbl -o eukconf -p filt
 ````
