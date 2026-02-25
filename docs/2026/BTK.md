@@ -50,6 +50,7 @@ blobtools view --remote aip_btk_be
 > **Note:** [The NCBI Foreign Contamination Screen (FCS) tool](https://github.com/ncbi/fcs) is now publicly available. It is a suite of tools designed to identify and remove contaminant sequences from genome assemblies. 
 
 ````bash
+mkdir Aip_FCS
 ../Results/Genome_Eval/software/run_fcsadaptor.sh --fasta-input Aip_final.fasta  --output-dir Aip_FCS --euk
 cat Aip_final.fasta | sudo python3 ../Results/Genome_Eval/software/fcs.py clean genome --action-report ./Aip_FCS/fcs_adaptor_report.txt --output Aip_clean.fasta --contam-fasta-out adap_contam.fasta
 python3 ../Results/Genome_Eval/software/fcs.py screen genome --fasta Aip_clean.fasta --out-dir ./gx_out/ --gx-db gxdb --tax-id 2652724
