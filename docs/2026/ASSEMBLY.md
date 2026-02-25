@@ -81,7 +81,7 @@ Running time: 4m30,344s
 Running time: 310m6,996s
 
 ````bash
-canu -d Aip_canu -p Aip genomeSize=275m  -nanopore  -trimmed -correct -assemble Aip_clean.fq.gz gridOptions="--cpus=1"
+canu -d Aip_canu -p Aip genomeSize=275m  -nanopore  -trimmed -correct -assemble Aip_clean.fastq.gz gridOptions="--cpus=1"
 ````
 
 ## [hifiasm](https://github.com/chhylp123/hifiasm)
