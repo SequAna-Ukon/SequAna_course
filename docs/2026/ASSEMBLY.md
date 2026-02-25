@@ -49,6 +49,9 @@ ONT_READ_LIST=/home/bio16840/Abdo/read_list.txt
 GENOME_SIZE=275000000
 THREADS=1
 MIN_READ_LENGTH=1000
+NUM_ITER=2
+PREP_OUTPUT_DIR=prep
+
 ````
 
 - Then run the reads correction step
