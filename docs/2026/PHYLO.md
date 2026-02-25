@@ -11,7 +11,7 @@ DomRates-Seq infers these rearrangement events of protein domains for a given ph
 - Filter isoforms and keep only one of the isoforms.
 
 ````bash
-../Results/Comparative/software/dw-helper/build/isoformCleaner -i in_folder/proteome/Exaiptasia_diaphana.fa -o Exaiptasia_diaphana_clean.fa
+../Results/Comparative/software/dw-helper/build/isoformCleaner -i ../Results/Annotation/funannotate_Aip/update_results/Aiptasia_sp.proteins.fa -o Exaiptasia_diaphana_clean.fa
 ````
 
 - Domain annotation using [PfamScan](https://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/)
