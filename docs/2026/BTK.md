@@ -56,5 +56,5 @@ cat Aip_final.fasta | sudo python3 ../Results/Genome_Eval/software/fcs.py clean 
 python3 ../Results/Genome_Eval/software/fcs.py screen genome --fasta Aip_clean.fasta --out-dir ./gx_out/ --gx-db gxdb --tax-id 2652724
 cat Aip_clean.fasta  | python3 ../Results/Genome_Eval/software/fcs.py clean genome --action-report ./gx_out/blast.1582434.fcs_gx_report.txt --output Aip_fcs.fasta --contam-fasta-out contam.fasta
 ````
-> **Exercise:** Explore the outputs ```fcs_adaptor_report.txt``` and ```Aip_final.2652724.fcs_gx_report.txt``` from ```Results/Genome_Eval/Aip_FCS```.
+> **Exercise:** Explore the outputs ```fcs_adaptor_report.txt``` and ```gx_out/Aip_final.2652724.fcs_gx_report.txt``` from ```Results/Genome_Eval/Aip_FCS```.
 
