@@ -89,7 +89,7 @@ canu -d Aip_canu -p Aip genomeSize=275m  -nanopore  -trimmed -correct -assemble 
 
 Running time: 42m28,033s
 ````bash
-../Results/Assembly/software/hifiasm/hifiasm -t50 --ont --dual-scaf -o aip_asm aip_clean.fq.gz
+hifiasm -t 1 --ont --dual-scaf -o aip_asm Aip_clean.fastq.gz
 
 gfa_to_fasta.py Aip_asm.bp.p_ctg.gfa
 ````
