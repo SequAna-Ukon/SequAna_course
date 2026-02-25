@@ -91,8 +91,9 @@ Running time: 42m28,033s
 ````bash
 hifiasm -t 1 --ont --dual-scaf -o aip_asm Aip_clean.fastq.gz
 
-gfa_to_fasta.py Aip_asm.bp.p_ctg.gfa
+gfastats aip_asm.bp.p_ctg.gfa -o Aip_asm.fasta
 ````
+
 # Genome assembly Polishing
 
 For the time limitation I will not do polishing as there are many ways to do it but here I will recommend some tools and how to run it.
