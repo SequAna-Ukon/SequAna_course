@@ -65,8 +65,16 @@ genes are aligned and concatenated into a supermatrix, which is analyzed to prod
 
 > **Exercise:** use [BuscoPhylo](https://buscophylo.inra.org.ma/) to compute Phylogenomic tree for our genome and the available assembles  ```GCA_001417965.1``` and ```GCF_001417965.1```
 
-> **Exercise:** Sometimes **BuscoPhylo** is not working. In this case lets use [BUSCO Phylogenomics](https://github.com/jamiemcg/BUSCO_phylogenomics) to compute a phylogenomic tree for our genome and the available assembles  ```GCA_001417965.1``` and ```GCF_001417965.1```
-> 
+> **Exercise:** Sometimes **BuscoPhylo** is not working. In this case lets use [BUSCO Phylogenomics](https://github.com/jamiemcg/BUSCO_phylogenomics) to compute a phylogenomic tree for our genome and the available assembles  ```GCA_001417965.1``` and ```GCF_001417965.1```, download and check results ```count_buscos.txt``` and ```output_busco_phylogenomics``` at ```Results/Phylogeny/BUSCO_phylogenomics```.
+
+> **Hint:**
+
+````bash
+mamba activate phylo_env
+count_buscos.py -i ../Results/Phylogeny/BUSCO_phylogenomics/BUSCO_results/ > count_buscos.txt
+BUSCO_phylogenomics.py -i ../Results/Phylogeny/BUSCO_phylogenomics/BUSCO_results/ -o output_busco_phylogenomics -t 1 --supermatrix_only
+```` 
+
 
 ## Gene tree
 Usually, this is done for the genes of interesting and/or significant biological functions to have a deeper look into its evolutionary routes. Maximum Likelihood (ML) and Bayesian Inference (BI) are the most accurate and recommended algorithms for phylogenetic analysis [Sardaraz et al. 2012](http://article.sapub.org/10.5923.j.bioinformatics.20120201.04.html). I chose to demonstrate IQ-TREE software for phylogenetic analysis using ML method. This software identifies and automatically removes genes or taxa that show compositional bias from the analysis [Kapli et al. 2020](https://www.nature.com/articles/s41576-020-0233-0). i picked the identified HOG (HOG:E0794750) sequences for Phylogenetic analysis following commands:
@@ -95,4 +103,3 @@ Running time: 28m59,543s
 <summary>Hint</summary>
 
 - You can use [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) or [iTOL](https://itol.embl.de/).
-
