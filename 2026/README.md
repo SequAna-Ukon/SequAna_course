@@ -3,7 +3,7 @@
 
 |Day|Time (CET)|Session Title|instructor|Affiliation|Notes|
 |:---:|:---:|:---:|---|----|---|
-|**DAY I**: Thursday 19.03.2026|9:00 - 9:15|Opening |Prof. Christian Voolstra|SequAna Director |lecture|
+|**DAY I**: Thursday 19.03.2026|9:00 - 9:15|Opening |Prof. Christian Voolstra|SequAna Director |lecture/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||9:15 - 10:00|Course instructions|SequAna's Instructors||lecture|
 ||10:00 - 10:15|Break|||
 ||10:15 - 11:00|Design of a genome sequencing experiment|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[lecture](https://prezi.com/view/rr5Z6WDAaWWOxdRl2D5p/)|
