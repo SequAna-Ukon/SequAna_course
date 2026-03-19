@@ -1,0 +1,15 @@
+name: ONT26
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - busco
+  - minimap2
+  - flye
+  - nanoplot
+  - samtools
+  - seqkit
+  - pip
