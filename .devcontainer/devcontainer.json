@@ -1,17 +1,4 @@
 {
-  "name": "SequAna Course (ONT)",
-
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-
-  "features": {
-    "ghcr.io/devcontainers/features/conda:1": {
-      "version": "latest"
-    },
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {
-      "version": "latest",
-      "moby": true
-    }
-  },
-
-  "postCreateCommand": "conda init && conda install -n base -y -c conda-forge mamba && mamba env create -f environment.yml && echo 'conda activate ONT26' >> ~/.bashrc"
+  "name": "SequAna Course",
+  "image": "mcr.microsoft.com/devcontainers/universal:2"
 }
