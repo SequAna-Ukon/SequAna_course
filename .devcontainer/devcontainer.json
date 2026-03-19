@@ -6,5 +6,5 @@
     "ghcr.io/devcontainers/features/conda:1": {}
   },
 
-  "postCreateCommand": "conda install -n base -y -c conda-forge mamba && mamba env update -f environment.yml --prune && echo 'conda activate ONT26' >> ~/.bashrc"
+  "postCreateCommand": "conda install -n base -y -c conda-forge mamba && mamba env create -f environment.yml && echo 'conda activate ONT26' >> ~/.bashrc"
 }
