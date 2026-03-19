@@ -11,4 +11,4 @@ By the end of this session you will:
 
 ## Material
 
-In this session you will be following along a live demo of GoaT web, using the [set of slides provided](https://docs.google.com/presentation/d/1S4deT4LbYH1KesFjVVfTQUPCKxLFDqyNf2w47PdxRjE/edit#slide=id.p) by the instructor.
+In this session you will be following along a live demo of GoaT web, using the [set of slides provided](https://tinyurl.com/goat-sequana26) by the instructor.
