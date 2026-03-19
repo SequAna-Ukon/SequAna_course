@@ -1,4 +1,10 @@
 {
   "name": "SequAna Course",
-  "image": "mcr.microsoft.com/devcontainers/universal:2"
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {}
+  },
+
+  "postCreateCommand": "conda install -n base -y -c conda-forge mamba && mamba env update -f environment.yml --prune"
 }
