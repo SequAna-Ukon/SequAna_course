@@ -48,6 +48,6 @@
 ||11:15 - 12:30|lunch|||
 ||12:30 - 13:45| Modularity and Phylogenetic Analysis|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/PHYLO.md)|
 ||13:45 - 14:00|Break|||
-||14:00 -  14:45|FastOMA for homology exploration|Dr. Stefano Pascarelli/ Dr. Sina Majidian/Dr. Yannis Nevers|FastOMA team, University of Lausanne|[lecture](https://docs.google.com/presentation/d/1Z-IVkMHyln-UhzVwRSeJE8W4jm76ISKWuOVFvu9qylk/edit#slide=id.g2c6469605be_0_0)/[mini-practice](https://oma-stage.vital-it.ch/oma/academy/)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
+||14:00 -  14:45|FastOMA for homology exploration|Dr. Stefano Pascarelli/ Dr. Sina Majidian/Dr. Yannis Nevers|FastOMA team, University of Lausanne|[lecture](https://docs.google.com/presentation/d/1Z-IVkMHyln-UhzVwRSeJE8W4jm76ISKWuOVFvu9qylk/edit#slide=id.g2c6469605be_0_0)/[mini-practice](https://omabrowser.org/oma/academy/)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||14:45 - 15:30|Troubleshooting session with all the participants.|SequAna's Instructors||
 ||15:30 - 16:00|Closing|Prof. Christian Voolstra|SequAna Director |
