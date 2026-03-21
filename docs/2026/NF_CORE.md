@@ -15,6 +15,11 @@ Let's start from the very beginning using nf-core. We can use a pipeline line ca
 
 > **Exercise** Try to download our sequencing raw reads for Aiptasia, which should now be available in the NCBI Sequence Read Archive (SRA) under the accession ```SRR32136522``` using the fetching pipeline. Feel free to download any raw reads that you may interested in.
 - if somehow it doesn't work or takes a longer time then we going to use this one ````SRX27526683```` for the Gram-positive bacteria *Bordetella pertussis*.
+
+- First, start nextflow codespaces from: 
+
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/nextflow-io/training?quickstart=1&ref=3.3)
+
 ````bash
 export NXF_VER=24.10.4
 ````
