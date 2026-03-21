@@ -11,8 +11,9 @@ There is! It's called [Nextflow](https://www.nextflow.io/docs/latest/getstarted.
 
 - As i'm a Nextflow ambassador, I'm going to use the official training hands-on [Hello Nextflow](https://training.nextflow.io/latest/hello_nextflow/)
 
-- Start training code spaces from: 
-  [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/nextflow-io/training?quickstart=1&ref=3.3)
+- Start training codespaces from: 
+
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/nextflow-io/training?quickstart=1&ref=3.3)
 
 
 - Because of the time limitation, I will go through Parts 1, 5, and 6 of the hands-on.
