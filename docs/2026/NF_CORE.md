@@ -59,7 +59,7 @@ wget https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20241228.tar.gz
 
 ````
 tool,db_name,db_params,db_path
-kraken2,db2,--quick,/workspace/gitpod/hello-nextflow/k2_viral_20241228.tar.gz
+kraken2,db2,--quick,/workspaces/training/k2_viral_20241228.tar.gz
 ````
 
 - Finally run the pipeline
