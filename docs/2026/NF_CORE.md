@@ -32,6 +32,8 @@ nextflow run nf-core/fetchngs -r 1.12.0 -profile docker --input input.csv --nf_c
 <details>
 <summary>Hint </summary>
 
+- cteate ```nextflow.config ``` as:
+
 ````
 process {
     resourceLimits = [
@@ -40,6 +42,10 @@ process {
     ]
 }
 
+````
+- then run:
+````bash
+nextflow run nf-core/fetchngs -r 1.12.0 -profile docker --input input.csv -c nextflow.config --nf_core_pipeline taxprofiler --outdir raw_reads
 ````
 </details>
 
