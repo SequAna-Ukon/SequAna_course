@@ -4,7 +4,7 @@
 
     "features": {
     "ghcr.io/devcontainers/features/conda:1": {},
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {"version": "24.0"}
   },
 
   "postCreateCommand": "conda init && conda install -n base -y conda-forge::mamba && mamba shell init --shell bash && mamba create -n EDTA -y -c conda-forge -c bioconda edta && echo 'conda activate ONT26' >> ~/.bashrc"
