@@ -34,6 +34,10 @@ docker images
 - Build your docker image
 
 Docker images are created by using a so-called Dockerfile,a simple text file containing a list of commands to assemble and configure the image with the software packages required. For example, a Dockerfile to create a container with curl installed could be as simple as this:
+
+````
+export DOCKER_API_VERSION=1.43
+````
 ````
 code Dockerfile
 ````
