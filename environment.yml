@@ -1,9 +1,0 @@
-name: ONT26
-
-channels:
-  - conda-forge
-  - bioconda
-
-dependencies:
-  - python=3.11
-  - busco
