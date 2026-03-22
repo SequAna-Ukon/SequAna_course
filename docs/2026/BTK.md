@@ -27,12 +27,15 @@ nextflow run blobtoolkit/main.nf -profile docker --input aip.csv --fasta assembl
 - it's a computational-extensive analysis so i did it for you but You still need to view the data, i will start hosting the data and all what you need to do is:
 
 ````bash
-#log out the server
-exit
+mamba activate btk
+blobtools view --remote Results/Genome_Eval/
+````
+- in another terminal
+````bash
 # Start Google Chrome from the remote machine (server)
-ssh  -Y bio16840 google-chrome
+ssh  -Y bio16840@134.34.119.87 google-chrome
 #add the local host address in the browse bar
-http://localhost:8001/view/aip_btk_be/dataset/aip_btk_be/blob
+http://localhost:8001/view/all
 ````
 - Still, you can do this on your system but you need first downloading the analysis folder on your system.
 
