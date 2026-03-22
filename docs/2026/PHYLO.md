@@ -65,7 +65,7 @@ genes are aligned and concatenated into a supermatrix, which is analyzed to prod
 
 > **Exercise:** use [BuscoPhylo](https://buscophylo.inra.org.ma/) to compute Phylogenomic tree for our genome and the available assembles  ```GCA_001417965.1``` and ```GCF_001417965.1```
 
-> **Exercise:** Sometimes **BuscoPhylo** is not working. In this case lets use [BUSCO Phylogenomics](https://github.com/jamiemcg/BUSCO_phylogenomics) to compute a phylogenomic tree for our genome and the available assembles  ```GCA_001417965.1``` and ```GCF_001417965.1```, download and check results ```count_buscos.txt``` and ```output_busco_phylogenomics``` at ```Results/Phylogeny/BUSCO_phylogenomics```.
+> **Exercise:** Sometimes **BuscoPhylo** is not working. In this case lets use [BUSCO Phylogenomics](https://github.com/jamiemcg/BUSCO_phylogenomics) to compute a phylogenomic tree for our genome and the available annotations  ```GCA_001417965.1``` and ```GCF_001417965.1```, download and check results ```count_buscos.txt``` and ```output_busco_phylogenomics``` at ```Results/Phylogeny/BUSCO_phylogenomics```.
 
 > **Hint:**
 
