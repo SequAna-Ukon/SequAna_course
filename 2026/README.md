@@ -35,13 +35,13 @@
 ||17:15- 18:00|Assembling organelle genomes|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/ORG.md)|
 |**Day IV**: Tuesday 24.03.2026|10:00 - 10:45|Eukaryotic Genome Annotation|Dr. Vianey Paola Barrera Enriquez|Bioinformatician, Ensembl Genome Annotation Project, EMBL-EBI, UK|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/25March2025_EukaryoticGenomeAnnotation.pdf)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||10:45 - 11:00|Break|||
-||11:00 - 12:30|Gene prediction and functional annotation using Funannotate|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/FUNAN.md)|
+||11:30 - 12:30|Genome assembly and annotation assessment|Dr. Marco Sollitto|Postdoctoral Fellow, Vertebrate Genome Laboratory, Rockefeller University, USA|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/Course_2026_GA.odp)/[mini-practice](https://github.com/marco91sol/SequAna_course)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||12:30 - 13:30|lunch|||
 ||13:30 - 14:15|Characterization and annotation of DNA repeats |Dr. Christopher Benson|Postdoctoral Fellows, Ou's Lab, Ohio State University, USA|lecture/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||14:15 - 14:30|Break|||
 ||14:30 - 15:15|Characterization and annotation of DNA repeats |Dr. Christopher Benson|Postdoctoral Fellows, Ou's Lab, Ohio State University, USA|lecture/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||15:15 - 15:30|Break|||
-||15:30 - 16:30|Genome assembly and annotation assessment|Dr. Marco Sollitto|Postdoctoral Fellow, Vertebrate Genome Laboratory, Rockefeller University, USA|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/Course_2026_GA.odp)/[mini-practice](https://github.com/marco91sol/SequAna_course)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
+||15:30 - 17:00|Gene prediction and functional annotation using Funannotate|Dr. Abdoallah Sharaf|SequAna Bioinformatician|[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/FUNAN.md)|
 |**Day V**: Wednesday 25.03.2026|9:00 - 9:45|Searching and Downloading Genome Data using NCBI Datasets|Dr. Abdoallah Sharaf|SequAna Bioinformatician | [Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/DATASET.md)|
 ||9:45 - 10:00|Break|||
 ||10:00 - 11:15| Functional Enrichment Analysis and Comparative Genomics|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/FEA.md)|
