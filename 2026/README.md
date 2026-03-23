@@ -41,7 +41,7 @@
 ||14:15 - 14:30|Break|||
 ||14:30 - 15:15|Characterization and annotation of DNA repeats |Dr. Christopher Benson|Postdoctoral Fellows, Ou's Lab, Ohio State University, USA|lecture/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 ||15:15 - 15:30|Break|||
-||15:30 - 16:30|Genome assembly and annotation assessment|Dr. Marco Sollitto|Postdoctoral Fellow, Vertebrate Genome Laboratory, Rockefeller University, USA|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/Course_2026_GA.odp)/mini-practice/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
+||15:30 - 16:30|Genome assembly and annotation assessment|Dr. Marco Sollitto|Postdoctoral Fellow, Vertebrate Genome Laboratory, Rockefeller University, USA|[lecture](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/Course_2026_GA.odp)/[mini-practice](https://github.com/marco91sol/SequAna_course)/[Zoom](https://uni-konstanz-de.zoom.us/j/93441127918)|
 |**Day V**: Wednesday 25.03.2026|9:00 - 9:45|Searching and Downloading Genome Data using NCBI Datasets|Dr. Abdoallah Sharaf|SequAna Bioinformatician | [Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/DATASET.md)|
 ||9:45 - 10:00|Break|||
 ||10:00 - 11:15| Functional Enrichment Analysis and Comparative Genomics|Dr. Abdoallah Sharaf|SequAna Bioinformatician |[Practical](https://github.com/SequAna-Ukon/SequAna_course/blob/main/docs/2026/FEA.md)|
